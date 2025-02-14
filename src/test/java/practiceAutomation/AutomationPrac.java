@@ -183,7 +183,12 @@ public class AutomationPrac {
 	@Test(priority = 10)
 	public void waitConcept() {
 		WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(10));
-		w.until(ExpectedConditions.numberOfElementsToBe(By.tagName("a"),28 ));
+		w.until(ExpectedConditions.numberOfElementsToBe(By.tagName("a"), 28));
+
+	}
+
+	@Test(priority = 11)
+	public void amitTest() {
 		System.out.println("hello");
 
 	}
