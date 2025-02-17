@@ -5,7 +5,12 @@
     <classes>
       <class name="practiceAutomation.AutomationPrac">
         <methods>
+          <include name="switchToalertExample"/>
           <include name="waitConcept"/>
+          <include name="webTableExample"/>
+          <include name="excelIntegerationExample"/>
+          <include name="mosueHoverExample"/>
+          <include name="screenshotExample"/>
           <include name="teardowm"/>
           <include name="setUp"/>
         </methods>

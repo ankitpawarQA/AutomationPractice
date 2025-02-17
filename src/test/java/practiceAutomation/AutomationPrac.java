@@ -188,10 +188,11 @@ public class AutomationPrac {
 	}
 
 	@Test(priority = 11)
-	public void amitTest() {
-		System.out.println("hello");
-		System.out.println("h1");
-		System.out.println("h2");
-
+	public void rohitTest1() {
+		System.out.println("r");
+		System.out.println("o");
+		System.out.println("h");
+		System.out.println("i");
+		System.out.println("t");
 	}
 }
